@@ -7,10 +7,16 @@ public class PlaneManagement {
 
         jaggedArray[0] = new int[14];
         jaggedArray[1] = new int[12];
-
         jaggedArray[2] = new int[12];
         jaggedArray[3] = new int[14];
 
+        int[][] ticketsSold = new int[4][];
+
+        ticketsSold[0] = new int[14];
+        ticketsSold[1] = new int[12];
+        ticketsSold[2] = new int[12];
+        ticketsSold[3] = new int[14];
+        
         do {
         System.out.println("***************************************************");
         System.out.println("*                      MENU                       *");
@@ -178,6 +184,7 @@ public class PlaneManagement {
                         System.out.print("O ");
                     }
                 }
+                System.out.println();
                 System.out.println();
             }
         }
